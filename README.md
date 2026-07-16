@@ -49,5 +49,11 @@ We trained classifiers to predict a binary outcome (`1` for Profitable, `0` for 
 | :--- | :--- | :--- |
 | Logistic Regression | 93.8% | Baseline |
 | **Decision Tree Classifier** | **94.8%** | **Winner** |
+---
+
+## 📚 References & Data Sources
+
+*   **Primary Data Asset:** The historical transactional data used throughout this optimization modeling was sourced via the [Superstore Sales Dataset](https://drive.google.com/file/d/1CU-peUykiJBmaOGn0IAZwCXUD-AuA2IY/view?usp=drive_link). 
+*   **Methodology & Frameworks:** Machine Learning pipeline structures, evaluation criteria ($R^2$ scoring, confusion matrix mapping), and exploratory guidelines were adapted from industry-standard documentation provided by `scikit-learn`, `pandas`, and corporate retail pricing best practices.
 
 * **Takeaway:** The Decision Tree accurately isolates distinct combinations of product lines and discount thresholds that cross the threshold into zero-profit territory.
